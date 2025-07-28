@@ -24,24 +24,6 @@ Ideal for demonstrating full-stack skills in secure web development and user aut
 - **Bootstrap** for front-end styling  
 
 ---
-
-## 📁 Project Structure
-
-```bash
-secure-login-system/
-├── docker-compose.yml         # Docker configuration
-├── php/                       # PHP application code
-│   ├── index.php              # Home page
-│   ├── login.php              # Login page
-│   ├── register.php           # Registration form
-│   ├── dashboard.php          # Protected dashboard
-│   ├── logout.php             # Logout logic
-├── sql/                       # Database schema
-│   └── init.sql               # SQL script for user table
-└── README.md                  # Project documentation
-
-
----
 ## 🧠 What I Learned
 - Hashing and verifying passwords using password_hash() and password_verify() in PHP
 
@@ -63,6 +45,21 @@ secure-login-system/
 - Role-based access control system
 
   ---
+  ## 📁 Project Structure
+
+```bash
+secure-login-system/
+├── docker-compose.yml         # Docker configuration
+├── php/                       # PHP application code
+│   ├── index.php              # Home page
+│   ├── login.php              # Login page
+│   ├── register.php           # Registration form
+│   ├── dashboard.php          # Protected dashboard
+│   ├── logout.php             # Logout logic
+├── sql/                       # Database schema
+│   └── init.sql               # SQL script for user table
+└── README.md                  # Project documentation
+
 
 
 ## ⚙️ Installation & Usage
